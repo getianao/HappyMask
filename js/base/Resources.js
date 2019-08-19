@@ -1,0 +1,22 @@
+export const Resources = [
+  ['character1', 'images/character1.png'],
+  ['character2', 'images/character2.gif'],
+  ['background', 'images/bg.jpg'],
+  ['level_btn', 'images/start.gif'],
+  ['free_btn', 'images/start-free.gif'],
+  ['rank_btn', 'images/rank.gif'],
+  ['progress_bar', 'images/progress-bar.png'],
+  ['question_bg', 'images/question-bg.png'],
+  ['select_bg', 'images/before-select.png'],
+  ['select_error', 'images/select-error.png'],
+  ['select_right', 'images/select-right.png'],
+  ['title', 'images/logo.gif'],
+  ['result_bg', 'images/result-bg.png'],
+  ['result_rank', 'images/result-rank.png'],
+  ['report_btn', 'images/link-save-report.gif'],
+  ['report_tip', 'images/tip-bg.png'],
+  ['return_btn', 'images/return.gif'],
+  ['music', 'images/music.png'],
+  ['music1', 'images/music1.png'],
+  ['tip', 'images/tip.png']
+];

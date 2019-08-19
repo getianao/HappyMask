@@ -1,0 +1,50 @@
+
+C:.
+│  game.js
+│  game.json
+│  info.txt
+│  main.js
+│  project.config.json
+│  
+├─audios                              // 音频文件
+├─images                              // 图片文件
+├─js
+│  │  Director.js                     // 导演类，控制游戏场景逻辑
+│  │  
+│  ├─base                            // 定义游戏开发基础类
+│  │      Color.js                    // 颜色类
+│  │      DataStore.js                // 对象临时存储类
+│  │      Point.js                    // 点类
+│  │      ResourceLoader.js           // 源文件加载类
+│  │      Resources.js                // 需要提前加载到资源文件
+│  │      Sprite.js                   // 游戏基本元素精灵类
+│  │      Stack.js                    // 栈类
+│  │      
+│  ├─data
+│  │      questions.js                // 存放问题的文件
+│  │      
+│  ├─libs
+│  │      symbol.js                   // ES6 Symbol简易兼容
+│  │      weapp-adapter.js            // 小游戏适配器
+│  │      
+│  ├─player
+│  │      question.js                 // 问题类
+│  │      
+│  ├─runtime
+│  │      background.js               // 背景类
+│  │      
+│  ├─scene
+│  │      freeScene.js                // 自由模式场景
+│  │      homeScene.js                // 首页场景
+│  │      questionScene.js            // 闯关模式场景
+│  │      resultScene.js              // 结果页场景
+│  │      
+│  └─utils
+│          auth.js                     // 授权类
+│          fillColor.js                // 颜色填充类
+│          index.js                    // 编号类
+│          
+└─src
+    └─myOpenDataContext
+            index.js                    // 定义开放域
+            
